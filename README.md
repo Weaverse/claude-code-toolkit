@@ -21,7 +21,7 @@ There are two ways to add agents to your project:
 
 The following agents are actively used by Weaverse developers in our day-to-day work:
 
-### [Code Explainer](./agents/code-explainer.md)
+### [code-explainer](./agents/code-explainer.md)
 - **Purpose**: Breaks down complex code and architectural concepts into understandable explanations
 - **Use Cases**: Code walkthroughs, onboarding, understanding algorithms, clarifying technical decisions
 
@@ -31,7 +31,7 @@ Provides clear, thorough explanations to help you understand code structure, log
 Use this agent when you need insights or clarifications about code, but not code changes.
 ```
 
-### [Solution Architect](./agents/solution-architect.md)
+### [solution-architect](./agents/solution-architect.md)
 - **Purpose**: Provides strategic guidance for implementing features, fixing bugs, or refactoring code
 - **Use Cases**: Architectural decisions, complex problem-solving, exploring implementation strategies
 
@@ -44,7 +44,7 @@ alternative suggestions. Use this agent when you need advice and guidance for co
 without direct code changes.
 ```
 
-### [Debug Specialist](./agents/debug-specialist.md)
+### [debug-specialist](./agents/debug-specialist.md)
 - **Purpose**: Systematically diagnoses and resolves software issues
 - **Use Cases**: Runtime errors, TypeScript errors, test failures, build issues, unexpected behavior
 
@@ -55,7 +55,7 @@ or when code behaves differently than expected. The agent should be used proacti
 or issue is detected.
 ```
 
-### [Docs Writer](./agents/docs-writer.md)
+### [docs-writer](./agents/docs-writer.md)
 - **Purpose**: Creates and maintains high-quality technical documentation
 - **Use Cases**: API documentation, README files, user guides, architectural docs
 
@@ -67,7 +67,7 @@ The agent excels at transforming complex technical information into simple, dige
 with excellent developer experience.
 ```
 
-### [Code Review Specialist](./agents/code-review-specialist.md)
+### [code-review-specialist](./agents/code-review-specialist.md)
 - **Purpose**: Performs thorough code reviews with constructive feedback
 - **Use Cases**: Pull request reviews, code quality assessment, best practices enforcement
 
@@ -77,7 +77,7 @@ manage state, integrate with backend and APIs, and which server or database comp
 Use this agent for clear, actionable feedback and documentation on feature implementation and architecture.
 ```
 
-### [Feature Architecture Reviewer](./agents/feature-architecture-reviewer.md)
+### [feature-architecture-reviewer](./agents/feature-architecture-reviewer.md)
 - **Purpose**: Reviews architectural decisions for new features
 - **Use Cases**: Feature design validation, scalability assessment, integration planning
 
@@ -88,7 +88,7 @@ feedback on architecture, design decisions, and potential improvements. This age
 any code—use it to evaluate feature quality, maintainability, and overall implementation clarity.
 ```
 
-### [PR Review Analyst](./agents/pr-review-analyst.md)
+### [pr-review-analyst](./agents/pr-review-analyst.md)
 - **Purpose**: Specialized analysis of pull requests
 - **Use Cases**: Change impact analysis, regression risk assessment, merge conflict resolution
 
