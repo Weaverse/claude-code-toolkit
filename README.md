@@ -26,7 +26,7 @@ The following agents are actively used by Weaverse developers in our day-to-day 
 - **Use Cases**: Code walkthroughs, onboarding, understanding algorithms, clarifying technical decisions
 
 ```text
-Use this agent when you need to understand how code works, get explanations of complex logic, learn about feature implementations, or clarify technical concepts without making any code modifications. This agent excels at breaking down code structure, explaining algorithms, clarifying architectural decisions, and providing insights into why code is written a certain way. Perfect for code walkthroughs, onboarding, debugging understanding (not fixing), and learning sessions.
+Agent specialized in answering questions and explaining code or features without making any modifications. Provides clear, thorough explanations to help you understand code structure, logic, and behavior. Use this agent when you need insights or clarifications about code, but not code changes.
 ```
 
 ### [Solution Architect](./agents/solution-architect.md)
@@ -34,7 +34,7 @@ Use this agent when you need to understand how code works, get explanations of c
 - **Use Cases**: Architectural decisions, complex problem-solving, exploring implementation strategies
 
 ```text
-Use this agent when you need strategic guidance for implementing new features, fixing bugs, or refactoring code. The agent will analyze your requirements, ask clarifying questions, and provide multiple solution approaches with trade-offs. Perfect for architectural decisions, complex problem-solving, or when you want to explore different implementation strategies before writing code.
+Agent specialized in providing solutions for new features, bug fixes, or code refactoring and optimization. This agent gathers information and requirements by asking questions when needed, then suggests possible solutions with pros and cons, along with a recommended approach. The agent does not modify any code, but helps you evaluate options and decide if you want to proceed or provide more information for alternative suggestions. Use this agent when you need advice and guidance for code improvements without direct code changes.
 ```
 
 ### [Debug Specialist](./agents/debug-specialist.md)
@@ -50,7 +50,7 @@ Use this agent when you encounter errors, test failures, unexpected behavior, or
 - **Use Cases**: API documentation, README files, user guides, architectural docs
 
 ```text
-Use this agent when you need to create or improve documentation for code, features, APIs, or any technical concepts. This includes writing README files, API documentation, feature guides, setup instructions, or any explanatory content that needs to be clear and accessible to developers of all levels. The agent excels at transforming complex technical information into simple, digestible documentation with excellent developer experience.
+Agent specialized in debugging code errors. Identifies and analyzes the root cause of errors, explains why they occur, and then collaborates with the solution agent to suggest practical solutions. The agent does not modify any code but streamlines debugging by diagnosing issues and providing clear, actionable advice for resolution. Use this agent when you need efficient error detection and guided troubleshooting, with recommendations on how to fix bugs or improve stability.
 ```
 
 ### [Code Review Specialist](./agents/code-review-specialist.md)
@@ -58,7 +58,7 @@ Use this agent when you need to create or improve documentation for code, featur
 - **Use Cases**: Pull request reviews, code quality assessment, best practices enforcement
 
 ```text
-Use this agent when you need expert code review for recently written or modified code. This agent should be invoked immediately after completing code changes to ensure quality, security, and maintainability. The agent will analyze code for best practices, potential bugs, security vulnerabilities, performance issues, and adherence to project standards.
+Expert software engineer agent for code review and feature analysis. Examines how features are rendered, manage state, integrate with backend and APIs, and which server or database components are involved. Use this agent for clear, actionable feedback and documentation on feature implementation and architecture.
 ```
 
 ### [Feature Architecture Reviewer](./agents/feature-architecture-reviewer.md)
@@ -66,7 +66,7 @@ Use this agent when you need expert code review for recently written or modified
 - **Use Cases**: Feature design validation, scalability assessment, integration planning
 
 ```text
-Use this agent when you need to analyze and review feature implementations, understand how components are rendered, examine state management patterns, trace API integrations, or document the full architecture of a feature from frontend to backend. This agent provides comprehensive technical analysis of feature implementations and their architectural patterns.
+Agent specialized in reviewing already implemented features. Analyzes the feature’s structure, including its components, logic, and integration with other parts of the system. Provides clear feedback on architecture, design decisions, and potential improvements. This agent does not modify any code—use it to evaluate feature quality, maintainability, and overall implementation clarity.
 ```
 
 ### [PR Review Analyst](./agents/pr-review-analyst.md)
@@ -74,7 +74,7 @@ Use this agent when you need to analyze and review feature implementations, unde
 - **Use Cases**: Change impact analysis, regression risk assessment, merge conflict resolution
 
 ```text
-Use this agent when you need a comprehensive review of a pull request before merging. The agent analyzes either your latest PR or a specific PR by ID, evaluating code quality, identifying potential improvements, detecting possible code duplication across the application, and spotting potential bugs. It provides clear explanations of what the PR accomplishes, the reasoning behind changes, and delivers indexed, actionable suggestions without modifying code directly.
+Agent dedicated to Pull Request (PR) review. Analyzes your latest PR or a specified PR (by ID), assessing code quality, improvements, potential code duplication across the app, and possible bugs. Clearly explains what the PR does, why the changes were made, and lists any suggested updates or fixes (ordered with indexes for easy selection). The agent does not modify code, but provides actionable suggestions to help you choose which updates to implement. Use this agent to ensure your PRs meet high standards before merging.
 ```
 ---
 *The Weaverse Team 🤝*
