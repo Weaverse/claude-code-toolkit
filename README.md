@@ -1,6 +1,6 @@
-# [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+# Claude Code Subagents
 
-A curated collection of specialized AI agents actively used by the Weaverse development team to enhance Claude Code's capabilities for every day software development tasks to improve productivity, code quality, and team collaboration.
+A curated collection of specialized [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents) actively used by the Weaverse development team to enhance Claude Code's capabilities for every day software development tasks to improve productivity, code quality, and team collaboration.
 
 ## How to Use
 
